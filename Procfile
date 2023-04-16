@@ -1,0 +1,1 @@
+web: liquidsoap stream.liq
