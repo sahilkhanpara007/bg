@@ -20,11 +20,11 @@ def get_track_name_text()
 end 
 
 #audio source
-audio = playlist(reload_mode="watch", "/home/sahilkhanpara2024/radio/music")
+audio = playlist(reload_mode="watch", "$(pwd)/music")
 audio = mksafe(audio)
 
 #video source
-background = single("/home/sahilkhanpara2024/radio/background.mp4")
+background = single("background.mp4")
 
 #calling metadata
 audio.on_track(apply_song) 
