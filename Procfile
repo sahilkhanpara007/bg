@@ -1,1 +1,1 @@
-web: liquidsoap stream.liq
+web: liquidsoap /app/radio/stream.liq
