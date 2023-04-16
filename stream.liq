@@ -20,7 +20,7 @@ def get_track_name_text()
 end 
 
 #audio source
-audio = playlist(reload_mode="watch", "/home/ubuntu/music")
+audio = playlist(reload_mode="watch", "/home/ubuntu/radio/music")
 audio = mksafe(audio)
 
 #video source
